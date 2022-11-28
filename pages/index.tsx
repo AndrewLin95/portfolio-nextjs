@@ -1,17 +1,20 @@
 import IntroductionStatement from '../components/IntroductionStatement';
+import About from '../components/About';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className="px-20">
       <Head>
         <title>Andrew Lin </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <IntroductionStatement />
-    </>
+
+      <About />
+    </div>
 
     // <div className="flex min-h-screen flex-col items-center justify-center py-2">
     //   <Head>
