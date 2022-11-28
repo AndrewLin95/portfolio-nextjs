@@ -8,16 +8,18 @@ import DescriptionIcon from '@mui/icons-material/Description';
 
 export default function IntroductionStatement() {
   return (
-    <div className="flex flex-col p-4 w-full h-55 border border-red-700 border-solid gap-3 justify-center items-center">
-      <div className="text-3xl font-bold">Hello, I'm Andrew</div>
+    <div className="flex flex-col p-4 w-full h-55 gap-3 justify-center items-center">
+      <div className="text-3xl font-bold">
+        Hello, I'm <span className="text-blue-300"> Andrew </span>
+      </div>
 
       <div className="flex flex-col justify-center items-center">
         <div>
           Toronto, Ontario <PublicIcon />
         </div>
         <div>
-          Software Engineering, Pharmaceuticals, Project Management{' '}
-          <ComputerIcon />
+          <span className="font-bold text-blue-300">Software Engineering</span>
+          , Pharmaceuticals, Project Management <ComputerIcon />
         </div>
         <div>
           Curious Optimist <PetsIcon />
