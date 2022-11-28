@@ -1,13 +1,17 @@
+import IntroductionStatement from '../components/IntroductionStatement';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 
 const Home: NextPage = () => {
   return (
-    <Head>
-      <title>Andrew Lin </title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+    <>
+      <Head>
+        <title>Andrew Lin </title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <IntroductionStatement />
+    </>
 
     // <div className="flex min-h-screen flex-col items-center justify-center py-2">
     //   <Head>
