@@ -21,6 +21,11 @@ code {
     sans-serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
