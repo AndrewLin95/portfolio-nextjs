@@ -1,5 +1,6 @@
 import IntroductionStatement from '../components/IntroductionStatement';
 import About from '../components/About';
+import Technologies from '../components/Technologies';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -14,6 +15,8 @@ const Home: NextPage = () => {
       <IntroductionStatement />
 
       <About />
+
+      <Technologies />
     </div>
 
     // <div className="flex min-h-screen flex-col items-center justify-center py-2">
