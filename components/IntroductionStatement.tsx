@@ -26,7 +26,7 @@ export default function IntroductionStatement() {
           <PhonelinkRingIcon />, Project Management <ComputerIcon />
         </div>
         <div>
-          Curious Optimist <PetsIcon />, passionate Perfectionist <AdjustIcon />
+          Curious Optimist <PetsIcon />, Passionate Perfectionist <AdjustIcon />
         </div>
       </div>
 
