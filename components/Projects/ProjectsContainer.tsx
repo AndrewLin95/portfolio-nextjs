@@ -14,7 +14,7 @@ const ProjectsContainer: FC<Props> = ({ data }) => {
         alt={data.altDescription}
         loading="eager"
       />
-      <div className="flex flex-col w-screen relative right-52 top-4">
+      <div className="flex flex-col w-screen relative right-52">
         <div className="h-8 relative left-8 bg-indigo-900 w-48 px-3 py-1">
           <div className="flex justify-start items-center">
             {data.projectName}
