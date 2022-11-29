@@ -1,5 +1,8 @@
 import PublicIcon from '@mui/icons-material/Public';
 import ComputerIcon from '@mui/icons-material/Computer';
+import PhonelinkRingIcon from '@mui/icons-material/PhonelinkRing';
+import MedicationLiquidIcon from '@mui/icons-material/MedicationLiquid';
+import AdjustIcon from '@mui/icons-material/Adjust';
 import PetsIcon from '@mui/icons-material/Pets';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -10,7 +13,7 @@ export default function IntroductionStatement() {
   return (
     <div className="flex flex-col p-4 w-full h-55 gap-3 justify-center items-center">
       <div className="text-3xl font-bold">
-        Hello, I'm <span className="text-blue-300"> Andrew </span>
+        Hello, I'm <span className="text-blue-400"> Andrew </span>
       </div>
 
       <div className="flex flex-col justify-center items-center">
@@ -18,11 +21,12 @@ export default function IntroductionStatement() {
           Toronto, Ontario <PublicIcon />
         </div>
         <div>
-          <span className="font-bold text-blue-300">Software Engineering</span>
-          , Pharmaceuticals, Project Management <ComputerIcon />
+          Pharmaceuticals <MedicationLiquidIcon />,{' '}
+          <span className="font-bold text-blue-300">Software Engineering</span>{' '}
+          <PhonelinkRingIcon />, Project Management <ComputerIcon />
         </div>
         <div>
-          Curious Optimist <PetsIcon />
+          Curious Optimist <PetsIcon />, Passoniate Perfectionist <AdjustIcon />
         </div>
       </div>
 
