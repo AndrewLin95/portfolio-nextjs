@@ -8,14 +8,14 @@ const About = () => {
         environments.
       </p>
       <p className="italic">
+        Being able to see the outcome of my work and the impact it has to my
+        users is one of the things I enjoy most.
+      </p>
+      <p>
         I find the problem solving and challenging nature of software
         development exciting. I am entralled by coming up with new software
         project ideas, applying new technologies and discovering how things
         work.
-      </p>
-      <p>
-        Being able to see the outcome of my work and the impact it has to my
-        users is one of the things I enjoy most.
       </p>
     </div>
   );

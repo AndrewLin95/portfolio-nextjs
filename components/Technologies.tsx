@@ -1,61 +1,7 @@
 import { useCallback } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
-
-const skills = [
-  {
-    name: 'react',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
-  },
-  {
-    name: 'nextjs',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg'
-  },
-  {
-    name: 'javascript',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
-  },
-  {
-    name: 'typescript',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
-  },
-  {
-    name: 'python',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
-  },
-  {
-    name: 'tailwind',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
-  },
-  {
-    name: 'git',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
-  },
-  {
-    name: 'webpack',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg'
-  },
-  {
-    name: 'jest',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg'
-  },
-  {
-    name: 'npm',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg'
-  },
-  {
-    name: 'aws',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg'
-  },
-  {
-    name: 'mongodb',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
-  },
-  {
-    name: 'firebase',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg'
-  }
-];
+import { SKILLS } from '../util/skills';
 
 interface Skills {
   name: string;
@@ -73,11 +19,10 @@ const Skill = ({ name, icon }: Skills) => {
 
 const Technologies = () => {
   const options = { delay: 2000 };
-  const autoplayRoot = (emblaRoot: any) => emblaRoot.parentElement;
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, dragFree: true },
-    [Autoplay(options, autoplayRoot)]
+    [Autoplay(options)]
   );
 
   const scrollPrev = useCallback(() => {
@@ -92,8 +37,8 @@ const Technologies = () => {
     <div className="w-full py-16">
       <div className="overflow-hidden w-full" ref={emblaRef}>
         <div className="flex select-none cursor-grab active:cusor-grabbing flex">
-          {skills.map((skill) => (
-            <Skill key={skill.name} name={skill.name} icon={skill.icon} />
+          {SKILLS.map((SKILLS) => (
+            <Skill key={SKILLS.name} name={SKILLS.name} icon={SKILLS.icon} />
           ))}
         </div>
       </div>
