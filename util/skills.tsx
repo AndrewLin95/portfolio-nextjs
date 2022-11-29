@@ -20,12 +20,20 @@ export const SKILLS = [
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
   },
   {
+    name: 'express',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg'
+  },
+  {
     name: 'python',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
   },
   {
     name: 'tailwind',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
+  },
+  {
+    name: 'github',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
   },
   {
     name: 'git',
@@ -44,6 +52,10 @@ export const SKILLS = [
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg'
   },
   {
+    name: 'graphql',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg'
+  },
+  {
     name: 'aws',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg'
   },
@@ -54,5 +66,21 @@ export const SKILLS = [
   {
     name: 'firebase',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg'
+  },
+  {
+    name: 'html',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
+  },
+  {
+    name: 'css',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg'
+  },
+  {
+    name: 'mui',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg'
+  },
+  {
+    name: 'eslint',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg'
   }
 ];
