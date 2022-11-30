@@ -7,7 +7,7 @@ interface Props {
 
 const ProjectsContainer: FC<Props> = ({ data }) => {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row w-full">
       <img
         className="h-80 opacity-60"
         src={`static/assets/${data.image}`}
