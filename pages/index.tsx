@@ -8,7 +8,7 @@ import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
-    <div className="px-20">
+    <div className="2xl:px-[26rem] xl:px-60 lg:px-48 px-24">
       <Head>
         <title>Andrew Lin </title>
         <link rel="icon" href="/favicon.ico" />
