@@ -5,9 +5,11 @@ const ContactInfo = () => {
     <div className="w-full flex flex-col">
       <div className="text-5xl text-blue-400 py-6">Contact</div>
       <div className="pb-6">
-        I am currently looking for software engineering opportunities! If you
-        have any questions, or just want to chat, please either use the form
-        below, or reach out to me via email at andrew.lin88@hotmail.com and I
+        I am currently looking for{' '}
+        <span className="text-blue-300">software engineering</span>{' '}
+        opportunities! If you have any questions, or just want to chat, please
+        either use the form below, or reach out to me via email at{' '}
+        <span className="text-blue-300">andrew.lin88@hotmail.com</span> and I
         will get back to you!
       </div>
       <div className="flex w-full justify-end">
