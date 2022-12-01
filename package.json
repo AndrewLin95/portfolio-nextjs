@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "next build && next export",
+    "deploy": "aws s3 sync out/ s3://al-nextjs-portfolio"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
