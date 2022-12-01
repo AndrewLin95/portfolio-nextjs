@@ -12,7 +12,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 export default function IntroductionStatement() {
   return (
     <div className="flex flex-col p-4 w-full h-55 gap-3 justify-center items-center">
-      <div className="text-3xl font-bold">
+      <div className="text-5xl font-bold">
         Hello, I'm <span className="text-blue-400"> Andrew </span>
       </div>
 
