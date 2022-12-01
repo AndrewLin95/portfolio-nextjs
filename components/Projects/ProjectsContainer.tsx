@@ -10,7 +10,7 @@ const ProjectsContainer: FC<Props> = ({ data }) => {
     <div className="flex flex-row w-full">
       <img
         className="h-80 opacity-60"
-        src={`s3://al-nextjs-portfolio/static/Assets/${data.image}`}
+        src={`static/Assets/${data.image}`}
         alt={data.altDescription}
         loading="eager"
       />
