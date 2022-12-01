@@ -1,7 +1,7 @@
 export const PROJECTS = [
   {
     projectName: 'Spotify Clone',
-    image: 's3://al-nextjs-portfolio/static/Assets/SpotifyClone.PNG',
+    image: 'SpotifyClone.PNG',
     altDescription: 'Spotify Clone',
     paragraph1:
       "Heavily using Spotify's APIs and Web Playback SDK, re-created Spotify mimicking core functionality including the ability to playback music, full search functionality, playlist retrieval and more.",
@@ -14,7 +14,7 @@ export const PROJECTS = [
   },
   {
     projectName: 'Hotpot Buddy',
-    image: 's3://al-nextjs-portfolio/static/Assets/HotpotBuddy.PNG',
+    image: 'HotpotBuddy.PNG',
     altDescription: 'Hot Pot Buddy',
     paragraph1:
       'Collaborated, within a small team, a mobile-focused web application that assists users in determining when a food item is cooked.',
@@ -27,7 +27,7 @@ export const PROJECTS = [
   },
   {
     projectName: 'Find the Object!',
-    image: 's3://al-nextjs-portfolio/static/Assets/WheresWaldo.PNG',
+    image: 'WheresWaldo.PNG',
     altDescription: "Where's Waldo Clone",
     paragraph1:
       'A fully responsive full stack photo tagging web application game.',
