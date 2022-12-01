@@ -13,8 +13,8 @@ module.exports = {
       backgroundColor: {
         'custom-1': 'rgba(10, 10, 10, 1)',
         'custom-2': 'rgba(25, 25, 25, 1)',
-        'custom-3': 'rgba(40, 40, 40, 1)'
-      }
+        'custom-3': 'rgba(40, 40, 40, 1)',
+      },
     },
   },
   plugins: [],

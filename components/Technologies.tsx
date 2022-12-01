@@ -12,9 +12,11 @@ interface Skills {
 
 const Skill = ({ name, icon }: Skills) => {
   return (
-    <div className="flex flex-col mr-10">
-      <img className="h-full w-full" src={icon}></img>
-      <p className="uppercase">{name}</p>
+    <div className="flex flex-col mr-10 justify-center items-center">
+      <div className="xl:h-24 xl:w-24 h-16 w-16">
+        <img src={icon}></img>
+      </div>
+      <p className="uppercase text-center">{name}</p>
     </div>
   );
 };
@@ -38,7 +40,7 @@ const Technologies = () => {
   return (
     <div className="w-full py-16 flex flex-row items-center">
       <button
-        className="cursor-pointer w-2 h-2 relative right-10"
+        className="cursor-pointer w-2 h-2 relative right-10 bottom-5"
         aria-label="previous"
         onClick={scrollPrev}
       >
@@ -46,7 +48,7 @@ const Technologies = () => {
       </button>
 
       <div className="overflow-hidden w-full" ref={emblaRef}>
-        <div className="flex select-none cursor-grab active:cusor-grabbing flex">
+        <div className="flex select-none cursor-grab active:cusor-grabbing">
           {SKILLS.map((SKILLS) => (
             <Skill key={SKILLS.name} name={SKILLS.name} icon={SKILLS.icon} />
           ))}
@@ -54,7 +56,7 @@ const Technologies = () => {
       </div>
 
       <button
-        className="cursor-pointer w-2 h-2 relative left-5"
+        className="cursor-pointer w-2 h-2 relative left-5 bottom-5"
         aria-label="next"
         onClick={scrollNext}
       >
