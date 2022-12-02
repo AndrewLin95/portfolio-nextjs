@@ -3,6 +3,7 @@ import About from '../components/About';
 import Technologies from '../components/Technologies';
 import Projects from '../components/Projects/Projects';
 import ContactInfo from '../components/ContactInfo';
+import Footer from '../components/Footer';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -23,6 +24,8 @@ const Home: NextPage = () => {
       <Projects />
 
       <ContactInfo />
+
+      <Footer />
     </div>
 
     // <div className="flex min-h-screen flex-col items-center justify-center py-2">
