@@ -6,9 +6,9 @@ const ContactInfo = () => {
     const url =
       'https://osytfglaxd.execute-api.us-east-2.amazonaws.com/prod/portfolio';
     const data = {
-      name: `${e.target[0].value}`,
-      email: `${e.target[1].value}`,
-      message: `${e.target[2].value}`
+      name: `${e.target.fname.value}`,
+      email: `${e.target.femail.value}`,
+      message: `${e.target.fmessage.value}`
     };
 
     const requestOptions = {
