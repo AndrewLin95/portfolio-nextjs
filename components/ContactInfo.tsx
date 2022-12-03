@@ -3,7 +3,6 @@ import SendIcon from '@mui/icons-material/Send';
 const ContactInfo = () => {
   const submitToAWS = async (e: any) => {
     e.preventDefault();
-    console.log(e);
     const url =
       'https://osytfglaxd.execute-api.us-east-2.amazonaws.com/prod/portfolio';
     const data = {
@@ -11,8 +10,6 @@ const ContactInfo = () => {
       email: `${e.target[1].value}`,
       message: `${e.target[2].value}`
     };
-
-    console.log(data);
 
     const requestOptions = {
       method: 'POST',
