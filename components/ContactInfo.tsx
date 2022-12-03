@@ -1,6 +1,35 @@
 import SendIcon from '@mui/icons-material/Send';
 
 const ContactInfo = () => {
+  const submitToAWS = async (e: any) => {
+    e.preventDefault();
+    console.log(e);
+    const url =
+      'https://osytfglaxd.execute-api.us-east-2.amazonaws.com/prod/portfolio';
+    const data = {
+      name: `${e.target[0].value}`,
+      email: `${e.target[1].value}`,
+      message: `${e.target[2].value}`
+    };
+
+    console.log(data);
+
+    const requestOptions = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    };
+
+    try {
+      const response = await fetch(url, requestOptions);
+      console.log(response);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <div className="w-full flex flex-col">
       <div className="text-5xl text-blue-400 py-6">Contact</div>
@@ -14,23 +43,31 @@ const ContactInfo = () => {
       </div>
       <div className="flex w-full justify-end">
         <div className="pb-12 w-1/2">
-          <form className="flex flex-col gap-4 w-full">
+          <form
+            onSubmit={(e) => {
+              submitToAWS(e);
+            }}
+            className="flex flex-col gap-4 w-full"
+          >
             <input
               className="bg-transparent border p-1"
               placeholder="Name"
               type={'text'}
               required
+              name="fname"
             />
             <input
               className="bg-transparent border p-1"
               placeholder="Email"
               type={'email'}
               required
+              name="femail"
             />
             <textarea
               className="bg-transparent border p-1 resize-none"
               placeholder="Message"
               required
+              name="fmessage"
             ></textarea>
             <div>
               <button className="w-12 border-transparent" type="submit">
