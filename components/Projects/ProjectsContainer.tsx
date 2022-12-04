@@ -8,15 +8,15 @@ interface Props {
 
 const ProjectsContainer: FC<Props> = ({ data }) => {
   return (
-    <div className="flex flex-row w-full">
+    <div className="flex sm:flex-row w-full sx:flex-col">
       <img
-        className="h-80 opacity-60"
+        className="h-80 opacity-60 object-contain"
         src={`static/Assets/${data.image}`}
         alt={data.altDescription}
         loading="eager"
       />
       <ScrollParallax>
-        <div className="flex flex-col w-full relative right-52">
+        <div className="flex flex-col w-full relative sm:right-48 sm:bottom-0 sx:-right-10 sx:bottom-16">
           <div className="h-8 relative left-8 bg-indigo-900 w-48 px-3 py-1">
             <div className="flex justify-start items-center">
               {data.projectName}

@@ -15,6 +15,9 @@ module.exports = {
         'custom-2': 'rgba(25, 25, 25, 1)',
         'custom-3': 'rgba(40, 40, 40, 1)',
       },
+      screens: {
+        "sx": '375px',
+      }
     },
   },
   plugins: [],
