@@ -43,7 +43,10 @@ export default function IntroductionStatement() {
         >
           <LinkedInIcon />
         </a>
-        <a className="resumePlaceholder">
+        <a
+          href="https://al-eng-resume.s3.us-east-2.amazonaws.com/!Andrew+Lin+Resume+2022_eng_.pdf"
+          target={'_blank'}
+        >
           <DescriptionIcon />
         </a>
       </div>
