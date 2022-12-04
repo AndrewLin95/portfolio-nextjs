@@ -16,7 +16,8 @@ module.exports = {
         'custom-3': 'rgba(40, 40, 40, 1)',
       },
       screens: {
-        "sx": '375px',
+        "xxs": '300px',
+        "xs": '450px',
       }
     },
   },
