@@ -10,7 +10,7 @@ const Footer = () => {
           className="flex gap-2"
         >
           <GitHubIcon />
-          <span className="underline">
+          <span className="underline text-sm sm:text-base">
             My Portfolio is Open Source, built on NextJS, and uses AWS Services
             like S3, Lambda and DynamoDB!
           </span>

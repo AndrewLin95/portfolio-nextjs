@@ -29,8 +29,8 @@ const ContactInfo = () => {
 
   return (
     <div className="w-full flex flex-col">
-      <div className="text-5xl text-blue-400 py-6">Contact</div>
-      <div className="pb-6">
+      <div className="text-3xl sm:text-5xl text-blue-400 py-6">Contact</div>
+      <div className="pb-6 text-sm sm:text-base">
         I am currently looking for{' '}
         <span className="text-blue-300">software engineering</span>{' '}
         opportunities! If you have any questions, or just want to chat, please
