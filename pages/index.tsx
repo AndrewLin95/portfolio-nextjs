@@ -9,7 +9,7 @@ import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
-    <div className="2xl:px-[26rem] xl:px-60 lg:px-16 md:px-12 px-8">
+    <div className="2xl:px-[26rem] xl:px-60 lg:px-16 md:px-12 px-8 overflow-x-hidden">
       <Head>
         <title>Andrew Lin </title>
         <link rel="icon" href="/favicon.ico" />
