@@ -21,7 +21,7 @@ export default function IntroductionStatement() {
           Toronto, Ontario <PublicIcon />
         </div>
         <div>
-          Pharmaceuticals <MedicationLiquidIcon className="sm:inline hidden" />,{' '}
+          Healthcare <MedicationLiquidIcon className="sm:inline hidden" />,{' '}
           <span className="font-bold text-blue-300">Software Engineering</span>{' '}
           <PhonelinkRingIcon className="sm:inline hidden" />
           <span className="hidden sm:inline">
@@ -44,7 +44,7 @@ export default function IntroductionStatement() {
           <LinkedInIcon />
         </a>
         <a
-          href="https://al-eng-resume.s3.us-east-2.amazonaws.com/!Andrew+Lin+Resume+2022_eng_.pdf"
+          href="https://al-eng-resume.s3.us-east-2.amazonaws.com/!Andrew+Lin+Resume+2023_eng.pdf"
           target={'_blank'}
         >
           <DescriptionIcon />

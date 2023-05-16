@@ -7,6 +7,17 @@ const About = () => {
         self-taught software developer with a high affinity for learning new
         technologies and applying them to new projects and environments.
       </p>
+      <p className="text-sm sm:text-base">
+        I have{' '}
+        <span className="font-bold">
+          full-stack software development work experience
+        </span>{' '}
+        at Milano Software coding in{' '}
+        <span className="text-blue-300">React</span>,{' '}
+        <span className="text-blue-300">ASP.NET-C#</span>,{' '}
+        <span className="text-blue-300"> MongoDB </span>,{' '}
+        <span className="text-blue-300">MySQL</span> and more
+      </p>
       <p className="italic text-sm sm:text-base">
         Being able to see the <span className="text-blue-300"> outcome </span>{' '}
         of my work and the <span className="text-blue-300">impact</span> it has
